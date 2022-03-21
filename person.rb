@@ -14,7 +14,6 @@ class Person
   end
 
   def can_use_sevices?
-   if of_age? || @parent_permission
+    true if of_age? || @parent_permission
   end
-  
 end
