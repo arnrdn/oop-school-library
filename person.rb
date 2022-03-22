@@ -6,7 +6,7 @@ class Person
     @name = name
     @age = age
     @parent_permission = parent_permission
-    @corrector = Nameable.new
+    @corrector = Namable.new
   end
 
   attr_accessor :name, :age
